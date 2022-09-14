@@ -7,7 +7,7 @@ const colorUl = {
     backgroundColor: "darkgrey",
 }
 
-function Randomname() {
+function FeedbackForm() {
     return(
         <form style={formStyle} >
             <ul style={colorUl}>
@@ -34,4 +34,4 @@ function Randomname() {
     );
 }
 
-export default Randomname;
+export default FeedbackForm;

@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Randomname from "./randomname";
+import PosterV1 from "./poster";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <App />
-      <Randomname />
+      {/*<App />*/}
+      {/*<FeedbackForm />*/}
+      <PosterV1 />
   </React.StrictMode>
 );
 
